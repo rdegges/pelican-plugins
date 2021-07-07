@@ -1,3 +1,4 @@
 # Using git version as no Python3-compatible exists on Pypi: https://github.com/rst2pdf/rst2pdf/issues/799
 git+https://github.com/rst2pdf/rst2pdf.git
 xhtml2pdf
+pillow>=8.3.0 # not directly required, pinned by Snyk to avoid a vulnerability
